@@ -1,0 +1,57 @@
+Janaína, estudante de Engenharia de Materiais, precisa calcular o resultado de x ao quadrado menos quatro x mais cinco (x**2 - 4*x + 5). Só que ela precisa calcular o resultado dessa fórmula para vários valores de x.
+
+Formato de entrada:
+Dois números inteiros, um em cada linha:
+
+O primeiro número (a) representa o primeiro valor de x que deve ser utilizado
+O segundo número (b) representa o último valor de x que deve ser utilizado
+
+Formato de saída:
+Os resultados de x**2 - 4*x + 5, para x no intervalo fechado entre a e b no domínio dos números inteiros.
+
+
+
+OBS: os resultados serão sempre números inteiros, não é necessário realizar arredondamentos.
+
+ex:
+-2   17
+2    10
+     5
+     2
+     1
+=======================================================
+
+Sempre que Mariana faz alguma trela a professora a coloca de castigo, obrigando-a a escrever centenas de números. Para se distrair um pouco durante o castigo, a Mariana inventou uma pequena brincadeira: quando vai escrever os números, ela pula todos os múltiplos de 10. Escreva um programa que reproduza esse comportamento de Mariana.
+
+Formato de entrada:
+Um número inteiro positivo N
+
+Formato de saída:
+Os números inteiros de 1 a N, incluindo o N.
+Os números que são múltiplos de 10 não devem ser impressos.
+Cada número deve estar em uma linha.
+
+ex:
+5     1
+      2
+      3
+      4
+      5
+=======================================================
+
+Escreva um programa que receba um número inteiro N e imprima na tela os primeiros N números naturais (isto é, os números inteiros não-negativos: 0, 1, 2, 3, 4, 5, ...).
+
+Formato de entrada:
+Um número inteiro N.
+
+Formato de saída:
+Os N primeiros números naturais, cada um em uma linha.
+
+ex:
+5	0
+	1
+	2
+	3
+	4
+
+=====================================================

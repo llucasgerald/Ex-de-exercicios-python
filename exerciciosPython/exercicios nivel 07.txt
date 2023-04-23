@@ -1,0 +1,137 @@
+Luíz Carlos é um carteiro muito comprometido com seu trabalho. Ele participou de uma reunião recente em que foi informado de que deveria entregar pelo menos 100 correspondências por dia para dar conta do grande fluxo de envios na época de Natal.
+
+Escreva um programa que receba como entrada a quantidade de correspondências entregues por ele em cada um dos sete dias da semana, e exiba em quantos dias ele cumpriu a meta, e a média de entregas diárias que ele fez no período.
+
+Formato de entrada:
+
+Valores inteiros
+
+Formato de saída:
+
+Um valor inteiro para a quantidade de dias, e outro valor inteiro para a média de entrega
+
+ex:
+100		5
+120		107
+140
+80
+105
+130
+75
+
+=====================================================
+
+Elabore um programa que calcule e apresente a soma dos inteiros existentes entre dois valores lidos (os dois valores das extremidades devem ser considerados).
+
+Formato de entrada:
+
+Numero inicial do intervalo
+Numero final do intervalo
+
+Formato de saída
+
+Soma dos números no intervalo
+
+ex:
+1		5050
+100
+
+====================================================
+
+Faça um programa que indique se um número que o usuário digitou é divisível por 4 e por 7 ao mesmo tempo mas não divisível por 5.
+
+A saída deve ser um mensagem 'sim' ou 'nao' (minúsculos e sem o til).
+
+Formato de entrada:
+
+Um número inteiro
+
+Formato de saída:
+
+Uma string, 'sim' ou 'não'
+
+ex:
+280		nao
+
+====================================================
+
+Um dos recursos minerais mais úteis do Minecraft é o ferro, pois é abundante no mundo e bom para fazer armas e armaduras. No jogo, a maioria dos itens podem ser agrupados em um conjunto de 64, que é chamado de stack.
+
+Helen passou alguns dias apenas construindo e finalizou três vilas:
+
+Hogsmeade
+Kakariko
+Solitude
+Como ela já tinha passado bastante tempo minerando e acumulou vários packs de ferro e decidiu dividir todos os packs igualmente entre as vilas. Para ser justa, ela prometeu jogar fora todo o ferro que sobrasse.
+
+Sua tarefa é escrever um programa para mostrar a Helen como utilizar os seus packs de ferro.
+
+Formato de entrada:
+
+P
+P - número natural (3 <= P)
+A linha única de entrada contém a quantidade de packs de ferro que Helen tem.
+obs: A entrada deve ser considerada amigável, ou seja, sempre estará no formato descrito.
+
+Formato de saída:
+
+V
+F
+V - número natural
+F - número natural
+As linhas de saída correspondem ao número de packs ferros que devem ser distribuídos para cada vila e a quantidade que deve ser dispensada.
+
+ex:
+20	6
+	2
+===================================================
+
+Faça um programa que leia um valor de mercadorias que um turista está trazendo de volta e calcula quanto ele terá que pagar de imposto na alfândega.
+
+A regra de imposto é:
+Até 500 de valor: sem imposto
+Acima de 500: 50% sobre o excedente
+
+Formato de entrada:
+
+Valor de mercadorias
+
+Formato de saída:
+
+Valor do imposto (float)
+
+ex:
+1000      250.0
+
+==================================================
+
+Na empresa em que você trabalha há muitos funcionários, e às vezes o depósito do INSS é feito incorretamente para alguns deles pois é um processo manual e portanto sujeito a erros. Com isso você decidiu propor a automação de tal processo, para torná-lo mais rápido e reduzir a chance de erros. Escreva um programa que receba o salário base de um funcionário e calcule qual a contribuição devida ao INSS, dada de acordo com a seguinte tabela:
+
+______________________________________________
+|     Salario de contribuicao (R$)	|Aliquota|
+|_____________________________________________
+|	ate R$ 1.751,81			|   8%   |
+|_____________________________________________
+|	de R$ 1.751,82 a R$ 2.919,72  |   9%   |
+|_____________________________________________
+|	de R$ 2.919,72  a R$ 5.839,45 |   11%  |
+|_____________________________________________
+Lembrando que esta tabela define um teto para o salário considerado, portanto salários maiores que o salário máximo serão descontados de um valor fixo e igual a 11% do valor do teto.
+
+Formato de entrada:
+
+A entrada será um número real, representando o salário base do funcinário.
+
+Formato de saída:
+
+A saída deverá ser apresentada no seguinte formato:
+Desconto do INSS: R$ 120.00
+Onde 120.00 é o valor da contribuição calculado para um salário de 1500.00 reais
+
+ex:
+2815.72		Desconto do INSS: R$ 253.41
+
+===================================================
+
+
+

@@ -1,0 +1,76 @@
+Faça um programa que receba a quantidade de m3 de água consumidos e o custo por litro de água e calcule:
+
+a) O valor a ser pago pela água; 
+
+b) O valor a ser pago pelo esgoto, sabendo que este corresponde a 80% do valor da água consumida;
+
+c) O valor total da conta, considerando água e esgoto.
+
+Dica: Lembre-se que 1 m3 = 1.000 litros
+
+Formato de entrada:
+
+A entrada consiste de uma linha contendo um valor real (ponto flutuante) que indica a quantidade em m3 consumida por uma residência e outro valor real que indica o custo em reais por litro de água.
+
+
+Formato de saída:
+
+A saída consiste de 3 linhas. A primeira linha contém o valor a ser pago pela água, na segunda o valor do esgoto e na terceira o valor total. Os valores numéricos de cada uma das linhas devem ter 2 casas decimais.
+
+ex:
+5.0 0.01		50.00
+			40.00
+			90.00
+================================================================
+
+[while] Elabore um programa que recebe valores inteiros até que seja digitado o valor zero. O programa deverá exibir a média aritmética dos valores recebidos. Lembre-se: o valor zero apenas sinaliza o fim da entrada, não deve ser contabilizado.
+
+Obs.: Não existe média sem que pelo menos um valor seja dado antes do zero, portanto neste problema ESTÁ GARANTIDO QUE HÁ MÉDIA.
+
+Formato de entrada:
+
+Diversos valores inteiros, um por linha. A entrada é encerrada com a leitura do valor zero.
+
+Formato de saída:
+
+A média aritmética dos valores lidos, não considerando o zero que encerra a entrada.
+
+ex:
+10		20
+20
+30
+0
+
+================================================
+
+Crie um programa que receba como entrada um número de linhas L (L > 0), um número de colunas C (C>0) e um caractere X. O programa deverá exibir L linhas com C colunas preenchidas com o caractere X.
+
+Formato de entrada:
+A primeira linha contém o número de linhas L; a linha seguinte contém o número de colunas C; a linha seguinte contém o caractere X.
+
+Formato de saída:
+
+O programa deverá exibir L linhas com C colunas preenchidas com o caractere X.
+
+ex:
+3	@@
+2	@@
+@	@@
+
+===============================================
+
+Crie um programa que receba como entrada o valor total de uma dívida (número natural maior que zero) e o valor máximo que o devedor pode pagar todo mês (número natural maior que zero). O programa deve exibir o restante da dívida antes e depois de cada pagamento mensal até que a dívida zere. Obs.: quando a dívida é menor do que o máximo que o devedor pode pagar, ele pagará exatamente quanto deve, jamais pagará um valor superior.
+
+Formato de entrada:
+
+Na primeira linha um valor natural maior que zero indicando o valor da dívida; na segunda linha o valor máximo que o devedor pode pagar por mês (novamente um valor natural maior que zero).
+
+Formato de saída:
+
+O valor da dívida restante antes do pagamento mensal e o valor da dívida restante após o pagamento mensal, conforme o formato nos exemplos. Repetir enquanto a dívida não zerar.
+
+ex:
+200		(antes) 200
+900		(depois) 0
+
+===============================================

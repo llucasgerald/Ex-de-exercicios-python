@@ -1,0 +1,88 @@
+Escreva um programa onde os usuários podem digitar vários números inteiros, um de cada vez. Quando quiser encerrar o programa, basta digitar -1. Nessa hora o programa deverá exibir na tela a média aritmética dos números digitados, com 2 casas decimais.
+
+
+A parte em que os usuários digitam os números já está programada para você, basta completar o código calculando e imprimindo a média na tela.
+
+Formato de entrada:
+A entrada é uma sequência de números inteiros, um em cada linha. O último número sempre é -1.
+
+Código base:
+
+numeros = []
+terminou = False
+while not terminou:
+    entrada = int(input())
+    if entrada == -1:
+        terminou = True
+    else:
+        numeros.append(entrada)
+          
+//Insira o código aqui
+
+
+ex:
+-5
+0
+10
+-1               1.67
+
+======================================================
+
+Escreva um programa que leia os valores (reais) dos raios de dois círculos diferentes e informe qual dos dois possui área maior ou se possuem a mesma área.
+
+Use pi = 3.14
+
+Formato de entrada:
+Os raios (tipo float) de 2 círculos em sequência.
+
+Formato de saída:
+Caso a área do primeiro círculo seja maior, escreva na saída: "Primeiro círculo"
+
+Caso a área do segundo círculo seja maior, escreva na saída: "Segundo círculo"
+
+Caso sejam iguais, escreva: "Iguais"
+
+
+ex:
+23.86
+23.2     Primeiro circulo
+
+====================================================
+
+Construa um algortimo que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não bissexto.
+
+Formato de entrada:
+Ano
+
+Formato de saída:
+Bissexto ou não
+
+ex:
+
+1144    Bissexto
+
+===================================================
+
+Na bomboniere "Bombons" o próprio cliente faz suas caixas escolhendo a vontade entre os bombons de três tipos de recheios: avelã, caramelo e passas.
+
+Escrever programa para ler:
+
+os preços das unidades de cada tipo de bombom: avelã, caramelo e passas, cada um em uma linha;
+e a quantidade de cada bombom que o cliente deseja na caixa, na mesma ordem: avelã, caramelo e passas, também cada um em uma linha;
+E exibir o valor da caixa, com duas casas decimais.
+
+Formato de entrada:
+1
+
+2
+
+3
+
+2
+
+3
+
+3
+
+Formato de saída:
+Valor: R$17.00

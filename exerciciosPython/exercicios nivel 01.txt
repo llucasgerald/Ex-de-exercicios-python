@@ -1,0 +1,20 @@
+Qual o resultado desse código Python?
+
+315602 % 10
+
+obs: sem usar codigo
+
+=======================================
+
+Escreva um programa que calcule e mostre na tela a raiz quarta de 256
+
+Formato de entrada: 256
+Formato de saída: 4.0
+
+=======================================
+
+Escreva um programa que calcule o resultado dessa expressão, sem simplificar:
+
+25+5/6-2
+
+O resultado precisa ser exatamente o resultado da fração 7.5

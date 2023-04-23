@@ -1,0 +1,87 @@
+Faça um programa que calcula características de formas geométricas de acordo com a necessidade do usuário.
+
+Em um primeiro momento você deve perguntar ao usuário qual tipo de forma ele gostaria de processar: (Q)uadrado, (R)etângulo ou (C)írculo. Caso o usuário informe alguma outra coisa, emita uma mensagem de erro.
+
+Caso o usuário escolha quadrado, pergunte qual o tamanho do lado e, em seguida calcule e imprima a área e o perímetro do quadrado.
+
+Caso o usuário escolha retângulo, pergunte qual o tamanho da altura e da largura e, em seguida calcule e imprima a área e o perímetro do retângulo.
+
+Caso o usuário escolha círculo, pergunte qual o tamanho do raio e, em seguida calcule e imprima a área e o comprimento do círculo (considere pi=3.14).
+
+O valor de saída deve ser arredondado usando 2 casas decimais.
+
+
+Formato de entrada:
+
+O tipo de figura geométrica (Q)uadrado, (R)etângulo ou (C)írculo.
+Caso o usuário escolha quadrado, receba também com o tamanho do lado (float)
+Caso o usuário escolha o retângulo, receba também a largura e a altura (float)
+Caso o usuário escolha círculo, receba o tamanho do raio (float)
+
+Formato de saída:
+
+Caso o usuário escolha quadrado ou retângulo, imprima a área e o perímetro
+Caso o usuário escolha círculo, imprima a área e o comprimento do círculo (considere pi=3.14).
+O valor de saída deve ser arredondado usando 2 casas decimais.
+
+ex:
+X  Nenhuma figura selecionada
+
+Q          0.37
+0.61       2.44
+
+====================================================
+
+Escreva um programa que leia o valor do índice de acidez (pH) de uma solução e informe se ela é ácida, básica ou neutra.
+
+A solução é ácida quando o pH é menor que 7
+
+A solução é básica quando o pH é maior que 7
+
+Caso contrário a solução é neutra
+
+
+Formato de entrada:
+O valor do pH (entre 1.0 e 14.0)
+
+Formato de saída:
+Caso a solução seja básica, escreva "Basica" na saída
+
+Caso a solução seja ácida, escreva "Acida" na saída
+
+Caso a solução seja neutra, escreva "Neutra" na saída
+
+ex:
+5.66    Acida
+7       Neutra
+
+======================================================
+
+A Locadora de Veículos Eudora lançou uma grande promoção esse mês: pagando apenas R$ 90 por diária, o cliente pode alugar um carro de passeio. Para cada diária, o cliente recebe uma cota de quilometragem de 100 Km. Cada quilômetro a mais custará uma taxa extra de R$ 12.
+
+Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais.
+
+Formato de entrada:
+Dois valores inteiros, separados por uma quebra de linha
+
+Formato de saída:
+Um valor real com duas casas decimais
+
+ex:
+1
+80      90.00
+
+=====================================================
+
+Dado um número natural n (1 <= n <= 7), exiba o dia da semana correspondente. Adote que a semana inicia em domingo.
+
+Formato de entrada:
+Um número natural n (1 <= n <= 7) representando o dia da semana.
+
+ex:
+1   Domingo
+7   Sabado
+
+=====================================================
+
+

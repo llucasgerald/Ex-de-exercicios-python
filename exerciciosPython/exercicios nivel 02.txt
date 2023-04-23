@@ -1,0 +1,62 @@
+Escreva um programa que recebe uma temperatura em Fahrenheit e converte para Celsius, usando a seguinte fórmula:
+C=(F-32).(5/9)
+
+Formato de entrada: 100
+Formato de saida: 37.77777777777778
+
+===============================================
+
+Faça programa que recebe um tempo dado em segundos e calcula quantos dias, horas, minutos e segundos ele representa.
+
+Formato de entrada: Número total de segundos
+Formato de saída: 
+
+Número de dias
+Número de horas
+Número de minutos
+Número de segundos
+
+ex:
+
+3600    0       60    0
+        1             0
+        0             1
+        0             0
+=================================================
+
+Escreva um programa que permite ao usuário digitar dois números inteiros e exibir o resultado para cada uma das seguintes operações:
+
++
+-
+*
+/
+//
+%
+**
+
+
+Por exemplo: se o usuário digitar 7 e 5, a saída do seu programa deverá ser:
+12
+2
+35
+1.4
+1
+2
+16807
+
+=================================================
+
+A locadora de carros SAI DA FRENTE está fazendo uma promoção e está alugando carros no período junino por R$ 30,00 a diária. Além disso, a locadora cobra R$ 0,01 por quilômetro rodado. Como é período de São João, a locadora quer fidelizar os clientes e está dando 10% de desconto no valor total do aluguel de qualquer carro.
+
+Formato de entrada:
+Quantos dias a pessoa ficou com o carro: 1 a 30
+Quantos kilômetros ela rodou 1 a 1000
+
+Formato de saída: O valor total que a pessoa deve pagar pelo aluguel do carro arredondado para duas casas decimais.
+
+ex:
+5
+282   =  R$ 137.54
+
+================================================
+
